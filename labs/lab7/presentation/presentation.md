@@ -1,14 +1,13 @@
 ---
 ## Front matter
 lang: ru-RU
-title: Структура научной презентации
-subtitle: Простейший шаблон
+title: Лабораторная работа №7
+subtitle: Модель Лотки-Вольтерры
 author:
-  - Кулябов Д. С.
+  - Клюкин М. А.
 institute:
   - Российский университет дружбы народов, Москва, Россия
-  - Объединённый институт ядерных исследований, Дубна, Россия
-date: 01 января 1970
+  
 
 ## i18n babel
 babel-lang: russian
@@ -23,29 +22,38 @@ section-titles: true
 theme: metropolis
 header-includes:
  - \metroset{progressbar=frametitle,sectionpage=progressbar,numbering=fraction}
+ - \usepackage{fontspec}
+ - \usepackage{polyglossia}
+ - \setmainlanguage{russian}
+ - \setotherlanguage{english}
+ - \newfontfamily\cyrillicfont{Arial}
+ - \newfontfamily\cyrillicfontsf{Arial}
+ - \newfontfamily\cyrillicfonttt{Arial}
+ - \setmainfont{Arial}
+ - \setsansfont{Arial}
+ 
 ---
 
-# Информация
 
 ## Докладчик
 
 :::::::::::::: {.columns align=center}
 ::: {.column width="70%"}
 
-  * Кулябов Дмитрий Сергеевич
-  * д.ф.-м.н., профессор
-  * профессор кафедры прикладной информатики и теории вероятностей
+  * Клюкин Михаил Александрович
+  * студент
   * Российский университет дружбы народов
-  * [kulyabov-ds@rudn.ru](mailto:kulyabov-ds@rudn.ru)
-  * <https://yamadharma.github.io/ru/>
+  * [1132226431@pruf.ru](mailto:1132226431@pfur.ru)
+  * <https://MaKYaro.github.io/ru/>
 
 :::
 ::: {.column width="30%"}
 
-![](./image/kulyabov.jpg)
+![](./image/XjDz893-bSI.jpg)
 
 :::
 ::::::::::::::
+
 
 # Вводная часть
 
